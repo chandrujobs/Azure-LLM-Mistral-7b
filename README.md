@@ -31,26 +31,26 @@ CLI-based RAG interface
 
 📂 Project Structure
 
-Azure-LLM-Mistral-7b/
-│
-├── build_training_data.py        # Generate evaluation dataset
-├── index_rag_chroma.py           # Index documents into vector DB
-├── evaluate_rag.py               # Run retrieval accuracy benchmarks
-├── rag_chat_cli.py               # Interactive RAG CLI
-├── eval_questions.jsonl          # Gold evaluation benchmark
-├── requirements.txt
-├── PRODUCTION_ACCURACY_RUNBOOK.md
-└── Data/                         # Source documentation corpus
+Azure-LLM-Mistral-7b/</br>
+│</br>
+├── build_training_data.py   nbsp;nbsp;           # Generate evaluation dataset</br>
+├── index_rag_chroma.py      nbsp;nbsp;           # Index documents into vector DB</br>
+├── evaluate_rag.py         nbsp;nbsp;            # Run retrieval accuracy benchmarks</br>
+├── rag_chat_cli.py          nbsp;nbsp;           # Interactive RAG CLI</br>
+├── eval_questions.jsonl     nbsp;nbsp;           # Gold evaluation benchmark</br>
+├── requirements.txt</br> nbsp;nbsp;
+├── PRODUCTION_ACCURACY_RUNBOOK.md</br> nbsp;nbsp;
+└── Data/                              nbsp;nbsp; # Source documentation corpus</br>
 
 🔥 Key Features
 
-✅ Self-hosted LLM inference
-✅ Enterprise-style RAG pipeline
-✅ 7,000+ evaluation benchmark questions
-✅ Retrieval scoring & accuracy metrics
-✅ Production validation runbook
-✅ Modular indexing pipeline
-✅ CLI-based conversational interface
+✅ Self-hosted LLM inference</br>
+✅ Enterprise-style RAG pipeline</br>
+✅ 7,000+ evaluation benchmark questions</br>
+✅ Retrieval scoring & accuracy metrics</br>
+✅ Production validation runbook</br>
+✅ Modular indexing pipeline</br>
+✅ CLI-based conversational interface</br>
 
 📊 Impact Metrics
 
