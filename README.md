@@ -1,5 +1,9 @@
 **Azure LLM – Mistral 7B Enterprise RAG System**
 
+
+
+<img width="1536" height="1024" alt="Azure LLM diagram" src="https://github.com/user-attachments/assets/fd227cc9-ed97-43f0-9585-e9208f6fc2b9" />
+
 Overview
 
 This project demonstrates a production-ready Retrieval-Augmented Generation (RAG) system built using:
@@ -54,31 +58,31 @@ Azure-LLM-Mistral-7b/</br>
 
 📊 Impact Metrics
 
-🧠 Model Size: 7B parameters
-📄 Documents Indexed: 14+ Azure service docs
-🧪 Evaluation Dataset: ~7000 structured questions
-⚡ Context Window: 32K tokens
-🎯 Retrieval Accuracy Optimization via iterative tuning
+🧠 Model Size: 7B parameters</br>
+📄 Documents Indexed: 14+ Azure service docs</br>
+🧪 Evaluation Dataset: ~7000 structured questions</br>
+⚡ Context Window: 32K tokens</br>
+🎯 Retrieval Accuracy Optimization via iterative tuning</br>
 
 🏗️ System Flow
 
-1) Ingest Azure documentation PDFs
-2) Chunk and embed documents
-3) Store embeddings in ChromaDB
-4) Retrieve top-K context for queries
-5) Pass retrieved context to Mistral 7B
-6) Evaluate retrieval quality using benchmark JSONL
-7) Iterate for production optimization
+1) Ingest Azure documentation PDFs</br>
+2) Chunk and embed documents</br>
+3) Store embeddings in ChromaDB</br>
+4) Retrieve top-K context for queries</br>
+5) Pass retrieved context to Mistral 7B</br>
+6) Evaluate retrieval quality using benchmark JSONL</br>
+7) Iterate for production optimization</br>
 
 🧪 Evaluation Framework
 
 Unlike typical RAG demos, this project includes:
 
-1) Expected source validation
-2) Keyword-based scoring
-3) Required fact matching
-4) Retrieval ranking evaluation
-5) Per-document accuracy analysis
+1) Expected source validation</br>
+2) Keyword-based scoring</br>
+3) Required fact matching</br>
+4) Retrieval ranking evaluation</br>
+5) Per-document accuracy analysis</br>
 
 This simulates how enterprise AI systems are validated before production deployment.
 
