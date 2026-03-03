@@ -44,13 +44,13 @@ Azure-LLM-Mistral-7b/</br>
 
 🔥 Key Features
 
-✅ Self-hosted LLM inference</br></br></br></br>
-✅ Enterprise-style RAG pipeline</br></br></br></br>
-✅ 7,000+ evaluation benchmark questions</br></br></br></br>
-✅ Retrieval scoring & accuracy metrics</br></br></br></br>
-✅ Production validation runbook</br></br></br></br>
-✅ Modular indexing pipeline</br></br></br></br>
-✅ CLI-based conversational interface</br></br></br></br>
+✅ Self-hosted LLM inference</br></br>
+✅ Enterprise-style RAG pipeline</br></br>
+✅ 7,000+ evaluation benchmark questions</br></br>
+✅ Retrieval scoring & accuracy metrics</br></br>
+✅ Production validation runbook</br></br>
+✅ Modular indexing pipeline</br></br>
+✅ CLI-based conversational interface</br></br>
 
 📊 Impact Metrics
 
