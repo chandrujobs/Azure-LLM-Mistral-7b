@@ -1,0 +1,32 @@
+{
+  "rag_file": "output\\rag_chunks.jsonl",
+  "questions_file": "eval_questions.jsonl",
+  "source_filter": [
+    "azure-devops-release-notes.pdf"
+  ],
+  "questions_total": 500,
+  "top_k": 5,
+  "source_hit_rate_at_k": 0.288,
+  "mrr_at_k": 0.1073,
+  "avg_keyword_coverage_at_k": 0.588,
+  "avg_required_fact_coverage_at_k": 0.11,
+  "forbidden_fact_hit_rate_at_k": 0.0,
+  "forbidden_question_hit_rate_at_k": 0.0,
+  "labels_used": {
+    "source_labeled_questions": 500,
+    "keyword_labeled_questions": 500,
+    "required_fact_labeled_questions": 500,
+    "forbidden_fact_labeled_questions": 500
+  },
+  "per_source": {
+    "azure-devops-release-notes.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 0.288,
+      "mrr_at_k": 0.1073,
+      "avg_keyword_coverage_at_k": 0.588,
+      "avg_required_fact_coverage_at_k": 0.11,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    }
+  }
+}

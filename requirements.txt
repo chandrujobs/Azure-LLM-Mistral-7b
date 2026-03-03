@@ -1,0 +1,10 @@
+pypdf
+requests
+chromadb
+langchain
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+langchain-core
+python-dotenv
+streamlit

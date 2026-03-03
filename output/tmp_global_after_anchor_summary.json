@@ -1,0 +1,147 @@
+{
+  "rag_file": "output\\rag_chunks.jsonl",
+  "questions_file": "eval_questions.jsonl",
+  "source_filter": null,
+  "questions_total": 7000,
+  "top_k": 5,
+  "source_hit_rate_at_k": 0.8557,
+  "mrr_at_k": 0.6589,
+  "avg_keyword_coverage_at_k": 0.4738,
+  "avg_required_fact_coverage_at_k": 0.149,
+  "forbidden_fact_hit_rate_at_k": 0.0,
+  "forbidden_question_hit_rate_at_k": 0.0,
+  "labels_used": {
+    "source_labeled_questions": 7000,
+    "keyword_labeled_questions": 7000,
+    "required_fact_labeled_questions": 7000,
+    "forbidden_fact_labeled_questions": 7000
+  },
+  "per_source": {
+    "azure-data-factory.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 1.0,
+      "mrr_at_k": 0.8881,
+      "avg_keyword_coverage_at_k": 0.5869,
+      "avg_required_fact_coverage_at_k": 0.234,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "azure-databricks.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 0.9,
+      "mrr_at_k": 0.7259,
+      "avg_keyword_coverage_at_k": 0.548,
+      "avg_required_fact_coverage_at_k": 0.1992,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "azure-devops-azure-devops.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 0.594,
+      "mrr_at_k": 0.3327,
+      "avg_keyword_coverage_at_k": 0.668,
+      "avg_required_fact_coverage_at_k": 0.207,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "azure-devops-dev-resources-azure-devops.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 0.902,
+      "mrr_at_k": 0.531,
+      "avg_keyword_coverage_at_k": 0.5425,
+      "avg_required_fact_coverage_at_k": 0.1473,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "azure-devops-get-started-azure-devops.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 0.734,
+      "mrr_at_k": 0.2771,
+      "avg_keyword_coverage_at_k": 0.053,
+      "avg_required_fact_coverage_at_k": 0.044,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "azure-devops-organizations-azure-devops.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 0.528,
+      "mrr_at_k": 0.2918,
+      "avg_keyword_coverage_at_k": 0.0755,
+      "avg_required_fact_coverage_at_k": 0.0462,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "azure-devops-pipelines-azure-devops.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 0.824,
+      "mrr_at_k": 0.5178,
+      "avg_keyword_coverage_at_k": 0.698,
+      "avg_required_fact_coverage_at_k": 0.157,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "azure-devops-release-notes.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 0.514,
+      "mrr_at_k": 0.4195,
+      "avg_keyword_coverage_at_k": 0.1995,
+      "avg_required_fact_coverage_at_k": 0.0395,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "azure-storage-blobs.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 1.0,
+      "mrr_at_k": 0.9937,
+      "avg_keyword_coverage_at_k": 0.323,
+      "avg_required_fact_coverage_at_k": 0.192,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "azure-synapse-analytics.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "avg_keyword_coverage_at_k": 0.6835,
+      "avg_required_fact_coverage_at_k": 0.1537,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "dax.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 0.998,
+      "mrr_at_k": 0.5436,
+      "avg_keyword_coverage_at_k": 0.48,
+      "avg_required_fact_coverage_at_k": 0.1447,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "fabric-fundamentals.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 0.986,
+      "mrr_at_k": 0.713,
+      "avg_keyword_coverage_at_k": 0.524,
+      "avg_required_fact_coverage_at_k": 0.1897,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "power-bi-developer-embedded.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "avg_keyword_coverage_at_k": 0.603,
+      "avg_required_fact_coverage_at_k": 0.1602,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    },
+    "purview.pdf": {
+      "questions": 500,
+      "source_hit_rate_at_k": 1.0,
+      "mrr_at_k": 0.9903,
+      "avg_keyword_coverage_at_k": 0.6485,
+      "avg_required_fact_coverage_at_k": 0.171,
+      "forbidden_fact_hit_rate_at_k": 0.0,
+      "forbidden_question_hit_rate_at_k": 0.0
+    }
+  }
+}

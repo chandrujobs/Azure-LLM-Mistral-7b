@@ -1,0 +1,9 @@
+{
+  "input_dir": "C:\\Users\\admin\\OneDrive\\Desktop\\Azure LLM\\Data",
+  "output_dir": "C:\\Users\\admin\\OneDrive\\Desktop\\Azure LLM\\output",
+  "pdf_count": 14,
+  "rag_chunk_count": 5069,
+  "sft_record_count": 0,
+  "failed_items": [],
+  "elapsed_seconds": 3596.48
+}
